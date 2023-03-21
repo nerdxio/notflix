@@ -4,6 +4,7 @@
  */
 package io.nerd.notflix.movie;
 
+import io.nerd.notflix.review.Review;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

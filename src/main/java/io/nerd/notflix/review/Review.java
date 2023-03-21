@@ -2,7 +2,7 @@
  * @author Hassan Refaat <hassan.refaat.dev@gmail.com>
  * @Created 3/21/2023 4:47 PM
  */
-package io.nerd.notflix.movie;
+package io.nerd.notflix.review;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,4 +22,8 @@ public class Review {
     private ObjectId id;
 
     private String body;
+
+    public Review(String body) {
+        this.body = body;
+    }
 }
